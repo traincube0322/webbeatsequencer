@@ -1,8 +1,17 @@
-function changeColor() {
-    var pad = document.querySelector('.pad');
-    if (pad.style.backgroundColor === 'blue') {
-        pad.style.backgroundColor = 'red';
-    } else {
-        pad.style.backgroundColor = 'blue';
-    }
+var key_colors = ['#FF007F', '#00FF2E', '#00DDFF', '#D400FF'];
+
+function toggleColor(button) {
+	var computedStyle = window.getComputedStyle(button);
+	var backgroundColor = computedStyle.backgroundColor;
+
+	if (backgroundColor === 'rgb(254, 225, 232)') {
+		var randomIndex = Math.floor(Math.random() * key_colors.length);
+		var randomColor = key_colors[randomIndex];
+		button.style.backgroundColor = randomColor;
+		console.log('changed')
+	}
+	else {
+		button.style.backgroundColor = '#FEE1E8';
+		console.log('un changed')
+	}
 }

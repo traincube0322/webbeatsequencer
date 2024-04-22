@@ -1,5 +1,5 @@
 const startBtn = document.querySelector('#startBtn');
-const tik = document.querySelector('#tik');
+const tick = document.querySelector('#tick');
 const tok = document.querySelector('#tok');
 const bpm = document.querySelector('#bpm');
 const title = document.querySelector('h1');
@@ -30,8 +30,8 @@ startBtn.addEventListener('click', () => {
 });
  
 function playSound() {
-	tok.currentTime = 0;
-	tok.play();
+	tick.currentTime = 0;
+	tick.play();
 }
  
 function changeBtn() {

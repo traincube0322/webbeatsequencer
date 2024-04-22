@@ -16,7 +16,7 @@
 		<h3 class="text-center mt-4">Metronome</h3>
 		<h1 class="text-center text-info mt-3 mb-3">60 BPM</h1>
 		<input class="form-control" type="range" id="bpm" min="40" max="220" value="60" />
-		<audio id="tik" src="sound/tik.wav"></audio>
+		<audio id="tick" src="sound/tick.mp3"></audio>
 		<audio id="tok" src="sound/tok.wav"></audio>
 		<button class="btn btn-primary btn-block mt-4" id="startBtn">Start</button>
 	</div>
@@ -25,28 +25,28 @@
 
 	<div>
 		<div class="pad">
-			<button class="key" id="key1"></button>
-			<button class="key" id="key2"></button>
-			<button class="key" id="key3"></button>
-			<button class="key" id="key4"></button>
+			<button class="key" id="key1" onclick="toggleColor(this)"></button>
+			<button class="key" id="key2" onclick="toggleColor(this)"></button>
+			<button class="key" id="key3" onclick="toggleColor(this)"></button>
+			<button class="key" id="key4" onclick="toggleColor(this)"></button>
 		</div>
 		<div class="pad">
-			<button class="key" id="key5"></button>
-			<button class="key" id="key6"></button>
-			<button class="key" id="key7"></button>
-			<button class="key" id="key8"></button>
+			<button class="key" id="key5" onclick="toggleColor(this)"></button>
+			<button class="key" id="key6" onclick="toggleColor(this)"></button>
+			<button class="key" id="key7" onclick="toggleColor(this)"></button>
+			<button class="key" id="key8" onclick="toggleColor(this)"></button>
 		</div>
 		<div class="pad">
-			<button class="key" id="key9"></button>
-			<button class="key" id="key10"></button>
-			<button class="key" id="key11"></button>
-			<button class="key" id="key12"></button>
+			<button class="key" id="key9" onclick="toggleColor(this)"></button>
+			<button class="key" id="key10" onclick="toggleColor(this)"></button>
+			<button class="key" id="key11" onclick="toggleColor(this)"></button>
+			<button class="key" id="key12" onclick="toggleColor(this)"></button>
 		</div>
 		<div class="pad">
-			<button class="key" id="key13"></button>
-			<button class="key" id="key14"></button>
-			<button class="key" id="key15"></button>
-			<button class="key" id="key16"></button>
+			<button class="key" id="key13" onclick="toggleColor(this)"></button>
+			<button class="key" id="key14" onclick="toggleColor(this)"></button>
+			<button class="key" id="key15" onclick="toggleColor(this)"></button>
+			<button class="key" id="key16" onclick="toggleColor(this)"></button>
 		</div>
 	</div>
 
