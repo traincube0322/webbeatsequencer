@@ -8,10 +8,8 @@ function toggleColor(button) {
 		var randomIndex = Math.floor(Math.random() * key_colors.length);
 		var randomColor = key_colors[randomIndex];
 		button.style.backgroundColor = randomColor;
-		console.log('changed')
 	}
 	else {
 		button.style.backgroundColor = '#FEE1E8';
-		console.log('un changed')
 	}
 }

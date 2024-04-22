@@ -2,8 +2,9 @@ body {
 	background-color: #0D0D0D;
 }
 h1 {
-	color: white;
+	color: #FF007F;
 	text-align: center;
+	font-size: 60px;
 }
 
 hr {
@@ -39,12 +40,19 @@ button {
     border-radius: 10px; /* 테두리를 부드럽게 만들기 위해 추가 */
 }
 
+.svg {
+	background-color: white;
+	display: inline;
+}
 
-
-
+.svg svg{
+	width: 50px;
+	height: 50px;
+	background-color: white;
+	display: inline;
+}
 footer {
 	margin-top: 50px;
-	color: white;
     text-align: center;
     bottom: 0;
     width: 100%;
