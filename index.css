@@ -42,9 +42,9 @@ button {
 
 
 footer {
+	margin-top: 50px;
 	color: white;
     text-align: center;
-    position: fixed;
     bottom: 0;
     width: 100%;
 	font-size: 12px;
