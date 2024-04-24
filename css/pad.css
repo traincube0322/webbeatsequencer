@@ -1,0 +1,52 @@
+#btnContainer {
+	text-align: center;
+}
+
+.pad-row {
+	text-align: center;
+}
+
+.key {
+	margin: 5px;
+	width: 75px;
+	height: 50px;
+	background-color: #FEE1E8;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+}
+
+.instrument {
+	float: left;
+	margin-top :5px;
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	background-color: #FEE1E8;
+	border-radius: 10px;
+}
+
+.active {
+	border: 3px solid white;
+}
+
+
+.row-1 .key.on {
+	background-color: #FF007F;
+}
+
+.row-2 .key.on {
+	background-color: #00FF2E;
+}
+
+.row-3  .key.on {
+	background-color: #00DDFF;
+}
+
+.row-4  .key.on {
+	background-color: #D400FF;
+}
+
