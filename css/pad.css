@@ -17,6 +17,7 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
     border-radius: 10px;
+	border: 3px none;
 }
 
 .instrument {
@@ -32,6 +33,17 @@
 .active {
 	border: 3px solid white;
 }
+
+#powerBtn {
+	width: 60px;
+	height: 60px;
+	fill: currentColor;
+}
+
+#powerBtn.on {
+	fill: aquamarine;
+}
+
 
 
 .row-1 .key.on {

@@ -60,10 +60,10 @@ metronomeBtn.addEventListener('click', () => {
 	metronomeActive = !metronomeActive;
 });
 
-function playSound() {
-    tick.currentTime = 0;
-    tick.play();
-}
+// function playSound() {
+//     tick.currentTime = 0;
+//     tick.play();
+// }
 
 function changeBtn() {
 	var startBtn = document.getElementById("startBtn");
