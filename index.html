@@ -45,7 +45,7 @@
 
 	<div class="container">
 		<div class="d-flex justify-content-center">
-			<input type="number" id="bpmInput" class="form-control text-center text-info mt-3 mb-3" value="60" oninput="updateFontSize(this)">
+			<input type="number" id="bpmInput" class="form-control text-center text-info mt-3 mb-3" value="60" oninput="updateFontSize(this)" min="10" max="300">
 			<h1 id="bpmDisplay" class="text-center text-info mt-3 mb-3">BPM</h1>
 		</div>
 		<input class="form-control" type="range" id="bpm" min="40" max="220" value="60" />
